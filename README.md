@@ -3,11 +3,11 @@ Create Docker file Sample tutorial.
 --------------------------------------
 
 1. create directory where you want to place Dockerfile
+
 `mkdir /Docker/sample`
 `touch /Docker/sample/Dockerfile`
 
-Add below list of line into Dockerfile.
-
+Add below list of line into Dockerfile. \n
 `FROM ubuntu:18.04
 
 RUN apt-get update
