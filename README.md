@@ -9,14 +9,11 @@ Create Docker file Sample tutorial.
 `touch /Docker/sample/Dockerfile`
 
 Add below list of line into Dockerfile. 
+
 `FROM ubuntu:18.04`
-
 `RUN apt-get update`
-
 `RUN apt-get -y install nano`
-
 `RUN apt-get -y install curl`
-
 
 Now build a Docker image from this Dockerfile.
 
